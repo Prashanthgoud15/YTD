@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YT Downloader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>YT Downloader</h1>
+            <p>Download YouTube Videos in MP3 or MP4 format</p>
+        </header>
+        <main>
+            <div class="input-section">
+                <input type="text" id="videoUrl" placeholder="Enter YouTube video link" />
+                <select id="format">
+                    <option value="mp4">MP4</option>
+                    <option value="mp3">MP3</option>
+                </select>
+                <button id="downloadBtn">Download</button>
+            </div>
+            <div id="statusMessage"></div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
